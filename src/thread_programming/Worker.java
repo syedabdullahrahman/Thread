@@ -7,12 +7,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Worker {
-    private Object lock1 = new Object();
-    private Object lock2 = new Object();
+    private final Object lock1 = new Object();
+    private final Object lock2 = new Object();
 
-    private Random random = new Random();
-    private List<Integer> list = new ArrayList<Integer>();
-    private List<Integer> list2 = new ArrayList<Integer>();
+    private final Random random = new Random();
+    private final List<Integer> list = new ArrayList<>(); //using final we can't furthur initialize the list, works differently for int, class etc.
+    private final List<Integer> list2 = new ArrayList<>();
 
     private void stageOne() {
         synchronized(lock1)
