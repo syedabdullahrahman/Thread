@@ -1,4 +1,4 @@
-package thread_exaple;
+package thread_programming;
 
 import java.util.ArrayList;
 import java.util.List;

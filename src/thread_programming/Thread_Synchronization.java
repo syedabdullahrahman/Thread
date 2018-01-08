@@ -1,4 +1,4 @@
-package thread_exaple;
+package thread_programming;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;

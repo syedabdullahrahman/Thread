@@ -1,5 +1,5 @@
 
-package thread_exaple;
+package thread_programming;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

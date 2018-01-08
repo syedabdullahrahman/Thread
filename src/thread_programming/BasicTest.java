@@ -1,4 +1,4 @@
-package thread_exaple;
+package thread_programming;
 
 class A{
     int a=5;

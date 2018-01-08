@@ -1,4 +1,4 @@
-package thread_exaple;
+package thread_programming;
 
 public class App {
 
